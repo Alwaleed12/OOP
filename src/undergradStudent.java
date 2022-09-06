@@ -1,11 +1,11 @@
 // Inheritance is to use class hierarchies to enable the reuse of functionality.
-public class undergradStudent extends Student implements Major {
+public class UndergradStudent extends Student implements Major {
 
     private Double gpa;
     private Integer creditsEarned;
     private String major;
 
-    public undergradStudent(String firstName, String lastName, String schoolName, Double gpa,
+    public UndergradStudent(String firstName, String lastName, String schoolName, Double gpa,
             Integer creditsEarned, String major) {
         super(firstName, lastName, schoolName);
         this.gpa = gpa;
